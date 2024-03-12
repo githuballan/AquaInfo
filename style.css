@@ -17,8 +17,8 @@ body{
 header{
     
     margin: 0px;
-    height: 300px;
-    padding: 1px;
+    height: 250px;
+    padding: 0px;
     background-image: linear-gradient(360deg, #7fe5ff6b, #ffffff);
     font-family: 'aqua';
     
@@ -35,6 +35,7 @@ header{
 
 }
 
+
 header>h1{
     margin: 10px;
     margin: auto;
@@ -42,58 +43,50 @@ header>h1{
     font-size: 50px;
     text-align: center;
     text-shadow: 1px 1px 2px #00000089;
-}
-
-nav{
-    padding-bottom: 5px;
-    background-color: #7fe5ff6b;
-    margin-top: 0px;
-    height: 30px;
-    box-shadow: 0px 5px 5px 0px #00000050;
     
 }
-nav>span>a{
+#nav{
+    padding: 6px;
+    background-color: #7fe5ff6b;
+    box-shadow: 2px 6px 5px 1px rgba(0, 0, 0, 0.336);
+    border-radius: 4px;
+    text-align: center;
+}
+nav{   
+
+    display: inline-block;
+}
+nav>a{
     font-family: 'aqua'; 
     font-size: 1.3em;
-    padding: 1px 4px 1px 4px ;
     background-color: rgba(127, 229, 255);
     box-shadow: 1px 1px 5px black;
     color: black;
-    margin: 1em;
     border-radius: 4px;
     text-decoration: none;
+    padding: 2px;
     
 
 }
-nav{
-    align-items:center;
-}
 
-nav>span>ul
+nav>ul
 {
     display:none;
 }
-nav>span:hover>ul
+nav:hover>ul
 {
     display:block;
 }
 
-nav>span>a:hover{
+nav>a:hover{
     box-shadow: 2px 2px 5px black;
     background-color: hsl(192, 100%, 77%);
 }
-nav>span>a:active{
+nav>a:active{
     box-shadow: -2px -2px 5px black;
     background-color: hsl(192, 54%, 65%);
 }
-header>h1{
-    margin: 5px;
-    margin: auto;
-    font-family: 'aqua';
-    font-size: 50px;
-    text-align: center;
-    
-}
+
 main{
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
